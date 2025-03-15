@@ -8,7 +8,7 @@ def calculate_something(number):
 def main():
     try:
         number = int(input("Enter your number: "))
-        if number is not None:
+        if number < 0:
             result = calculate_something(number)
             print(result)
         else:
